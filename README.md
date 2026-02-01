@@ -21,3 +21,9 @@ A file-based library record management system implemented in C++ using OOP princ
 ## Files
 - books.txt – storage
 - books.csv – exported data
+
+
+## Screenshots
+
+### Meniul Principal
+![Meniul Principal](screen/main_menu.png)
