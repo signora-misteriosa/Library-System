@@ -1,0 +1,10 @@
+# Visual Studio specific
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.tlog
+*.pdb
