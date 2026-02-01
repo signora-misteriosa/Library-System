@@ -9,7 +9,6 @@ LibraryManager::LibraryManager(string file) {
     filename = file;
 }
 
-// ---------- HELPERS ----------
 vector<Book> LibraryManager::loadBooks() {
     vector<Book> books;
     ifstream file(filename);
@@ -30,7 +29,6 @@ void LibraryManager::saveBooks(const vector<Book>& books) {
     file.close();
 }
 
-// ---------- MENU ----------
 void LibraryManager::showMenu() {
     int choice;
     do {
@@ -58,7 +56,6 @@ void LibraryManager::showMenu() {
     } while (choice != 0);
 }
 
-// ---------- FEATURES ----------
 void LibraryManager::addBook() {
     int id, year;
     string title, author;
