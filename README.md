@@ -25,5 +25,5 @@ A file-based library record management system implemented in C++ using OOP princ
 
 ## Screenshots
 
-### Meniul Principal
+### Main Menu
 ![Meniul Principal](screenshots/main_menu.png)
